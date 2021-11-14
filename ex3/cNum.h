@@ -5,27 +5,27 @@
  */
 
 /* 
- * File:   main.cpp
+ * File:   cNum.h
  * Author: vitor
  *
  * Created on 20 de outubro de 2021, 23:12
  */
-#include <iostream>
-#include <cstdlib>
 
-#include "cNum.h"
+#ifndef CNUM_H
+#define CNUM_H
 
-using namespace std;
-
-/*
- * 
- */
-int main(int argc, char** argv) {
-
-    cNum *Obj = new cNum();
-    Obj -> lerNum();
-    Obj -> resultado();
+class cNum {
+public:
+    cNum();
+    cNum(const cNum& orig);
+    virtual ~cNum();
     
-    return 0;
-}
+    int num, a;
+    void lerNum();
+    void resultado();
+private:
+
+};
+
+#endif /* CNUM_H */
 

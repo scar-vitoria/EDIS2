@@ -4,12 +4,12 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Arquivos de Cabeçalho"
                    projectFiles="true">
-      <itemPath>cPessoa.h</itemPath>
+      <itemPath>cNum.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
                    projectFiles="true">
-      <itemPath>cPessoa.cpp</itemPath>
+      <itemPath>cNum.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -38,9 +38,9 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="cPessoa.cpp" ex="false" tool="1" flavor2="0">
+      <item path="cNum.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="cPessoa.h" ex="false" tool="3" flavor2="0">
+      <item path="cNum.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -65,9 +65,9 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="cPessoa.cpp" ex="false" tool="1" flavor2="0">
+      <item path="cNum.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="cPessoa.h" ex="false" tool="3" flavor2="0">
+      <item path="cNum.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
